@@ -132,7 +132,7 @@ uint32_t tavor_num_ports		= TAVOR_NUM_PORTS;
  * Whether or not to use the built-in (i.e. in firmware) agents for QP0 and
  * QP1, respectively.
  */
-uint32_t tavor_qp0_agents_in_fw		= 1;
+uint32_t tavor_qp0_agents_in_fw		= 0;
 uint32_t tavor_qp1_agents_in_fw		= 0;
 
 /*
